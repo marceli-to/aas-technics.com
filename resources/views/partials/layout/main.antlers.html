@@ -1,0 +1,11 @@
+{{ if is_homepage }}
+  <main role="main" class="flex-grow">
+
+  </main>
+{{ else }}
+  <main role="main" class="w-full flex-grow">
+    {{ template_content }}
+  </main>
+{{ /if }}
+
+
