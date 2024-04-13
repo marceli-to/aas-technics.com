@@ -3,7 +3,7 @@ h1 {
 }
 
 h2 {
-  @apply font-effra-regular
+  @apply font-effra-medium font-medium
 }
 
 h3 {

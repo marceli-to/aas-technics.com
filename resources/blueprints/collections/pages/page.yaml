@@ -41,6 +41,13 @@ tabs:
                       fields:
                         -
                           import: page_section
+                    fullscreen_image:
+                      display: 'Fullscreen image'
+                      instructions: null
+                      icon: media-image-picture-orientation
+                      fields:
+                        -
+                          import: fullscreen_image
               type: replicator
               display: Inhalte
               icon: replicator
