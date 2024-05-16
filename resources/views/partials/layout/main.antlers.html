@@ -1,6 +1,18 @@
 {{ if is_homepage }}
-  <main role="main" class="flex-grow">
-
+  <main role="main" class="flex-grow bg-red-100 relative">
+    <figure class="absolute w-full h-full">
+      <picture>
+        <source media="(min-width: 1024px)" srcset="/assets/aastechnics-home-lg.jpg" type="image/jpeg">
+        <img 
+          src="/assets/aastechnics-home-sm.jpg" 
+          alt="{{ image:alt }}" 
+          title="{{ image:alt }}" 
+          height="{{ image:height }}" 
+          width="{{ image:width }}"
+          class="block w-full h-full object-cover"
+          loading="lazy">
+      </picture>
+    </figure>
   </main>
 {{ else }}
   <main role="main" class="w-full flex-grow">
