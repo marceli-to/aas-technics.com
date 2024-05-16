@@ -5,7 +5,7 @@ title: About
 page_elements:
   -
     id: luy6towx
-    image: aas-visual.jpg
+    image: aastechnics-about-1.jpg
     type: fullscreen_image
     enabled: true
   -
@@ -45,5 +45,5 @@ page_elements:
     enabled: true
 debug: false
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1713882935
+updated_at: 1715844872
 ---
