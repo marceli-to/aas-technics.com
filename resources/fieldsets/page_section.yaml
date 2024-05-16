@@ -17,7 +17,7 @@ fields:
   -
     handle: elements
     field:
-      collapse: false
+      collapse: true
       previews: true
       fullscreen: true
       sets:
@@ -26,16 +26,23 @@ fields:
           instructions: null
           icon: null
           sets:
+            team_member:
+              display: 'Team Member'
+              instructions: 'Add a team member'
+              icon: text-formatting-image-top
+              fields:
+                -
+                  import: team_member
             entity:
               display: Entity
-              instructions: null
+              instructions: 'Add an entity (i.e. Contact)'
               icon: form-address-field
               fields:
                 -
                   import: entity
             editor:
               display: 'Text editor'
-              instructions: 'Adds a text editor.'
+              instructions: 'Add a text editor'
               icon: text-formatting-markdown
               fields:
                 -

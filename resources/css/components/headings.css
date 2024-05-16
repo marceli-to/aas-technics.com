@@ -6,6 +6,10 @@ h2 {
   @apply font-effra-medium font-medium
 }
 
+.content h2 {
+  @apply mb-24
+}
+
 h3 {
   @apply font-effra-medium font-medium
 }

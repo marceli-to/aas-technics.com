@@ -25,7 +25,7 @@ tabs:
           -
             handle: page_elements
             field:
-              collapse: false
+              collapse: true
               previews: true
               fullscreen: true
               sets:
@@ -43,11 +43,18 @@ tabs:
                           import: page_section
                     fullscreen_image:
                       display: 'Fullscreen image'
-                      instructions: null
+                      instructions: 'Add a fullscreen header image'
                       icon: media-image-picture-orientation
                       fields:
                         -
                           import: fullscreen_image
+                    image:
+                      display: Image
+                      instructions: 'Add a content image'
+                      icon: media-image-picture-orientation
+                      fields:
+                        -
+                          import: image
               type: replicator
               display: Inhalte
               icon: replicator
