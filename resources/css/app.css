@@ -27,6 +27,31 @@ main a {
   @apply no-underline hover:text-azure transition-colors
 }
 
+main p + ul {
+  @apply mt-24
+}
+
+main ul {
+  @apply list-disc m-0
+}
+
+main ul:not(:last-of-type) {
+  @apply mb-24
+}
+
+main li p {
+  @apply inline
+}
+
+main li {
+  @apply pl-14 -indent-17 list-none;
+}
+
+main li:before {
+  content: "– ";
+  margin-right: 5px;
+}
+
 strong {
   @apply font-effra-medium font-medium
 }

@@ -30,7 +30,7 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Die Airline Assistance Switzerland ist ein junges, dynamisches, und Kunden orientiertes Unternehmen in der Luftfahrtbranche mit europaweiten Standorten. In Bereichen wie Passenger Services, Lost&Found, Rampe, und Baggage Handling steht der Name AAS für hohe Qualität und Zuverlässigkeit. Durch flexible und personalisierte Services garantiert die AAS eine rundum optimierte Kundenerfahrung.'
+                text: "AAS Technics ist Teil der großen Airline Assistance Switzerland-Familie und setzt sich als solcher mit Herz und Seele für die Weiterentwicklung der Dienstleistungen im Aviatik-Bereich ein. Cleaning, Catering und Technical Services sind unsere Kernkompetenz –\_doch wir verstehen uns nicht als blosser Ausführer, sondern bieten maßgeschneiderte Lösungen rund um den Flugbetrieb, die genau auf die Bedürfnisse unserer Kunden zugeschnitten sind."
           -
             type: paragraph
             attrs:
@@ -38,42 +38,22 @@ page_elements:
             content:
               -
                 type: text
-                text: "Seit 2023 gehört die AAS Technics als neuste Tochtergesellschaft zur AAS Familie und erweitert das Unternehmensportfolio um diverse Dienstleistungen rund um die technischen Aspekte der Luftfahrt. Die AAS Technics agiert als Mutterfirma für eine Reihe von Partnerunternehmen, welche in ihren jeweiligen Bereichen zu den besten der Branche zählen.\_"
+                text: 'Ob Flugzeugwartung, Reparaturen, technische Unterstützung direkt vor Ort oder die Implementierung neuer Technologien – wir sind mit vollem Einsatz dabei. AAS Technics verkörpert technische Exzellenz und sorgt für reibungslose Zusammenarbeit mit verschiedenen Partnerfirmen. Erfahren Sie hier mehr über unsere Dienstleistungen und die Expertise unserer Partner.'
         type: editor
         enabled: true
     type: page_section
     enabled: true
-  -
-    id: lw8xzus7
-    title: Team
-    type: page_section
-    enabled: true
-    elements:
-      -
-        id: lw8y4y7f
-        image: team/aas-technics-team-member.jpg
-        team_member_name: 'Alexander Fuchs'
-        team_member_title: Geschäftsführer
-        type: team_member
-        enabled: true
-      -
-        id: lw8y6i2c
-        image: team/aas-technics-team-member.jpg
-        team_member_name: 'Robby Domnick-Küper'
-        team_member_title: 'Project Manager'
-        type: team_member
-        enabled: true
   -
     id: lw8yhkee
     image: aastechnics-about-2.jpg
     type: image
     enabled: true
   -
-    id: lw8yx39r
-    title: Unternehmen
+    id: m0xuu9d7
+    title: Timeline
     elements:
       -
-        id: lw8yx8pe
+        id: m0xuuka2
         content:
           -
             type: heading
@@ -82,7 +62,7 @@ page_elements:
             content:
               -
                 type: text
-                text: 'GREISS Airline Service Management'
+                text: 'Januar 2022 – Partnerschaft mit Greiss GmbH (DUS)'
           -
             type: paragraph
             attrs:
@@ -90,47 +70,51 @@ page_elements:
             content:
               -
                 type: text
-                marks:
+                text: 'Im Januar 2022 haben wir die Greiss GmbH als wertvollen Partner bei AAS Technics aufgenommen. Als familiengeführtes Unternehmen hat Greiss seine hohen Standards und umfassende Expertise im Bereich der Crew- und Logistikservices sowie der technischen Flugzeugschlepps in die Partnerschaft eingebracht. Greiss wird seither im Sinne eines Familienunternehmens weitergeführt und glänzt tagtäglich mit Qualität und enger Kundenbetreuung.'
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
                   -
-                    type: bold
-                text: Kerngeschäft
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: 'Stationen: CGN, BER'
               -
-                type: hardBreak
-              -
-                type: text
-                text: 'Technische Dienstleistungen'
-          -
-            type: paragraph
-            attrs:
-              class: null
-            content:
-              -
-                type: text
-                marks:
+                type: listItem
+                content:
                   -
-                    type: bold
-                text: 'Home Base'
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: 'Schwerpunkte: Crew- und Logistikservices, technische Flugzeugschlepps'
               -
-                type: hardBreak
-              -
-                type: text
-                text: DUS
-          -
-            type: paragraph
-            attrs:
-              class: null
-            content:
-              -
-                type: text
-                marks:
+                type: listItem
+                content:
                   -
-                    type: bold
-                text: Standorte
-              -
-                type: hardBreak
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: 'Größte Kunden: Eurowings, Condor'
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
               -
                 type: text
-                text: 'CGN, BER + 8 weitere, ausgelagerte Standorte in DE und EU'
+                text: 'Dezember 2023 – Partnerschaft mit FLD Flughafendienste Deutschland (LEJ)'
           -
             type: paragraph
             attrs:
@@ -138,47 +122,51 @@ page_elements:
             content:
               -
                 type: text
-                marks:
+                text: "Seit Dezember 2023 bereichert FLD Flughafendienste Deutschland unsere AAS Technics-Familie. Mit ihrer tiefen Verwurzelung an den Stationen vor Ort und ihrer langjährigen Expertise in Spezialdienstleistungen wie Flugzeuginnenreinigung und Gebäudereinigung setzt FLD Maßstäbe. Auch nach der Integration in unsere Unternehmensgruppe bleibt FLD in ihrer operativen Ausrichtung eigenständig, um weiterhin auf höchstem Niveau zu agieren und den speziellen Anforderungen ihrer Kunden gerecht zu werden.\_"
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
                   -
-                    type: bold
-                text: Kunden
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: 'Stationen: LEJ, BER'
               -
-                type: hardBreak
-              -
-                type: text
-                text: 'Eurowings, Eurowings Technics, Condor'
-          -
-            type: paragraph
-            attrs:
-              class: null
-            content:
-              -
-                type: text
-                text: "Das GREISS Airline Service Management erbringt Dienstleistungen für Fluggesellschaften. Seit mehr als 20 Jahren reagieren wir durch kurze Kommunikationswege, Flexibilität und geringen Verwaltungsaufwand schnell auf die Wünsche unserer Kunden und auf Veränderungen im allgemeinen Luftverkehr.\_ Seit 2022 gehört die GREISS zur AAS Gruppe, und wurde 2023 zum ersten Projektpartner der AAS Technics.\_"
-          -
-            type: paragraph
-            attrs:
-              class: null
-            content:
-              -
-                type: text
-                text: 'In der Bereichen Pushback, Towing, Logistik und mehr sorgen wir dafür, dass hinter den Kulissen alles reibungslos läuft.'
-          -
-            type: paragraph
-            attrs:
-              class: null
-            content:
-              -
-                type: text
-                marks:
+                type: listItem
+                content:
                   -
-                    type: bold
-                text: 'Greiss Airline Support, Wir unterstützen.'
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: 'Schwerpunkte: Flugzeuginnenreinigung, Gebäudereinigung, Lost & Found Services, technische Flugzeugreinigung, Wohnmobilstellplatz-Bewirtschaftung'
               -
-                type: hardBreak
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: 'Größte Kunden: EAT, Aerologic, Flughafen Berlin-Brandenburg'
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
               -
                 type: text
-                text: 'In unserem Support inbegriffen sind das Schleppen von Flugzeugen zur Wartung in die Werft so wie auch Umschlepps zur Bereitstellung zum Flug.'
+                text: 'Juni 2024 - Übernahme des Airline-Catering-Geschäfts der Firma Camso'
           -
             type: paragraph
             attrs:
@@ -186,32 +174,67 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Unsere Mitarbeiter werden unter anderem als Qualified Helper innerhalb der Technischen Betriebe (Flugzeugtechnik) zur Unterstützung der Fluggerätemechaniker eingesetzt.'
+                text: "Im Juni 2024 haben wir das Airline-Catering-Geschäft der Firma Camso übernommen und damit unser Leistungsspektrum gezielt erweitert. Mit langjähriger Erfahrung in den Bereichen Airline Catering, „pick and pack“ für Cateringsupplier sowie Airportlogistik setzen wir auf smarte und effiziente Lösungen, um die hohen Anforderungen unserer Kunden optimal zu erfüllen.\_"
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: 'Stationen:'
+                      -
+                        type: text
+                        text: "\_FRA, LEJ, NUE, NRN, BER"
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: 'Schwerpunkte:'
+                      -
+                        type: text
+                        text: "\_Airline Catering, „pick and pack“ für Cateringsupplier, Airportlogistik"
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: 'Größte Kunden:'
+                      -
+                        type: text
+                        text: "\_EAT, Aerologic, Ryanair, deSter"
         type: editor
-        enabled: true
-    type: page_section
-    enabled: true
-  -
-    id: lw8z31h8
-    title: 'Team Greiss'
-    elements:
-      -
-        id: lw8z36de
-        image: team/aas-technics-team-member.jpg
-        team_member_name: 'Peter Müller'
-        team_member_title: 'Leiter Technik'
-        type: team_member
-        enabled: true
-      -
-        id: lw8z3hsr
-        image: team/aas-technics-team-member.jpg
-        team_member_name: 'Hans Gluck'
-        team_member_title: 'Leiter Infrastruktur'
-        type: team_member
         enabled: true
     type: page_section
     enabled: true
 debug: false
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1715847415
+updated_at: 1726059866
+open_graph_description: 'AAS Technics, Teil der Airline Assistance Switzerland, bietet massgeschneiderte Lösungen in den Bereichen Cleaning, Catering und Technical Services. Wir stehen für technische Exzellenz, zuverlässige Flugzeugwartung und nahtlose Zusammenarbeit mit Partnerfirmen. Erfahren Sie mehr über unsere Dienstleistungen.'
 ---
