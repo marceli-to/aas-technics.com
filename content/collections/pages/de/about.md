@@ -30,7 +30,21 @@ page_elements:
             content:
               -
                 type: text
-                text: "AAS Technics ist Teil der großen Airline Assistance Switzerland-Familie und setzt sich als solcher mit Herz und Seele für die Weiterentwicklung der Dienstleistungen im Aviatik-Bereich ein. Cleaning, Catering und Technical Services sind unsere Kernkompetenz –\_doch wir verstehen uns nicht als blosser Ausführer, sondern bieten maßgeschneiderte Lösungen rund um den Flugbetrieb, die genau auf die Bedürfnisse unserer Kunden zugeschnitten sind."
+                text: 'AAS Technics ist Teil der großen '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://aas.aero'
+                      rel: null
+                      target: _blank
+                      title: null
+                text: 'Airline Assistance Switzerland'
+              -
+                type: text
+                text: "-Familie und setzt sich als solcher mit Herz und Seele für die Weiterentwicklung der Dienstleistungen im Aviatik-Bereich ein. Cleaning, Catering und Technical Services sind unsere Kernkompetenz –\_doch wir verstehen uns nicht als blosser Ausführer, sondern bieten maßgeschneiderte Lösungen rund um den Flugbetrieb, die genau auf die Bedürfnisse unserer Kunden zugeschnitten sind."
           -
             type: paragraph
             attrs:
@@ -38,7 +52,7 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Ob Flugzeugwartung, Reparaturen, technische Unterstützung direkt vor Ort oder die Implementierung neuer Technologien – wir sind mit vollem Einsatz dabei. AAS Technics verkörpert technische Exzellenz und sorgt für reibungslose Zusammenarbeit mit verschiedenen Partnerfirmen. Erfahren Sie hier mehr über unsere Dienstleistungen und die Expertise unserer Partner.'
+                text: 'Ob Flugzeugwartung, Reparaturen, technische Unterstützung direkt vor Ort oder die Implementierung neuer Technologien – wir sind mit vollem Einsatz dabei. AAS Technics verkörpert technische Exzellenz und sorgt für reibungslose Zusammenarbeit mit verschiedenen Partnerfirmen.'
         type: editor
         enabled: true
     type: page_section
@@ -62,7 +76,7 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Januar 2022 – Partnerschaft mit Greiss GmbH (DUS)'
+                text: 'Januar 2022 – Partnerschaft mit Greiss Airline Service Management GmbH & Co KG (DUS)'
           -
             type: paragraph
             attrs:
@@ -70,7 +84,7 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Im Januar 2022 haben wir die Greiss GmbH als wertvollen Partner bei AAS Technics aufgenommen. Als familiengeführtes Unternehmen hat Greiss seine hohen Standards und umfassende Expertise im Bereich der Crew- und Logistikservices sowie der technischen Flugzeugschlepps in die Partnerschaft eingebracht. Greiss wird seither im Sinne eines Familienunternehmens weitergeführt und glänzt tagtäglich mit Qualität und enger Kundenbetreuung.'
+                text: 'Im Januar 2022 haben wir die Greiss Airline Service Management GmbH & Co KG als wertvollen Partner bei AAS Technics aufgenommen. Als familiengeführtes Unternehmen hat Greiss seine hohen Standards und umfassende Expertise im Bereich der Crew- und Logistikservices sowie der technischen Flugzeugschlepps in die Partnerschaft eingebracht. Greiss wird seither im Sinne eines Familienunternehmens weitergeführt und glänzt tagtäglich mit Qualität und enger Kundenbetreuung.'
           -
             type: bulletList
             content:
@@ -166,7 +180,7 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Juni 2024 - Übernahme des Airline-Catering-Geschäfts der Firma Camso'
+                text: 'Juni 2024 - Einstieg in das Airline Catering'
           -
             type: paragraph
             attrs:
@@ -188,10 +202,13 @@ page_elements:
                     content:
                       -
                         type: text
+                        text: Stationen
+                      -
+                        type: text
                         marks:
                           -
                             type: bold
-                        text: 'Stationen:'
+                        text: ':'
                       -
                         type: text
                         text: "\_FRA, LEJ, NUE, NRN, BER"
@@ -205,10 +222,13 @@ page_elements:
                     content:
                       -
                         type: text
+                        text: Schwerpunkte
+                      -
+                        type: text
                         marks:
                           -
                             type: bold
-                        text: 'Schwerpunkte:'
+                        text: ':'
                       -
                         type: text
                         text: "\_Airline Catering, „pick and pack“ für Cateringsupplier, Airportlogistik"
@@ -222,10 +242,13 @@ page_elements:
                     content:
                       -
                         type: text
+                        text: 'Größte Kunden'
+                      -
+                        type: text
                         marks:
                           -
                             type: bold
-                        text: 'Größte Kunden:'
+                        text: ':'
                       -
                         type: text
                         text: "\_EAT, Aerologic, Ryanair, deSter"
@@ -235,6 +258,6 @@ page_elements:
     enabled: true
 debug: false
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1726059866
+updated_at: 1726144713
 open_graph_description: 'AAS Technics, Teil der Airline Assistance Switzerland, bietet massgeschneiderte Lösungen in den Bereichen Cleaning, Catering und Technical Services. Wir stehen für technische Exzellenz, zuverlässige Flugzeugwartung und nahtlose Zusammenarbeit mit Partnerfirmen. Erfahren Sie mehr über unsere Dienstleistungen.'
 ---

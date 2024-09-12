@@ -4,7 +4,7 @@ blueprint: page
 title: Contacts
 debug: false
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1726059577
+updated_at: 1726144770
 page_elements:
   -
     id: luy713vi
@@ -74,7 +74,7 @@ page_elements:
             content:
               -
                 type: text
-                text: Greiss
+                text: 'Greiss Airline Service Management GmbH & Co KG'
           -
             type: paragraph
             attrs:
@@ -93,6 +93,13 @@ page_elements:
               -
                 type: text
                 text: Deutschland
+        type: entity
+        enabled: true
+        code: DUS
+      -
+        id: m0za0pu6
+        code: LEJ
+        description:
           -
             type: heading
             attrs:
@@ -100,7 +107,7 @@ page_elements:
             content:
               -
                 type: text
-                text: FLD
+                text: 'FLD Flughafendienste Deutschland GmbH'
           -
             type: paragraph
             attrs:
