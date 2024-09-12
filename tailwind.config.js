@@ -53,11 +53,15 @@ export default {
         'xl': '2.5rem',     // 40px
         '2xl': '3rem',      // 48px
         '3xl': '6rem', // 96px
-
       },
 
       colors: {
         'azure': '#0086C5',
+      },
+
+      // add underline offset
+      textUnderlineOffset: {
+        '3': '0.1875rem',
       },
       
     },
