@@ -4,7 +4,7 @@ blueprint: page
 title: Contacts
 debug: false
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1726210157
+updated_at: 1726232283
 page_elements:
   -
     id: luy713vi
@@ -29,17 +29,12 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Am Aspenhaag 2a'
+                text: 'Peter-Müller-Str. 20'
               -
                 type: hardBreak
               -
                 type: text
-                text: '65451 Kelsterbach'
-              -
-                type: hardBreak
-              -
-                type: text
-                text: Deutschland
+                text: '40474 Düsseldorf'
           -
             type: paragraph
             attrs:

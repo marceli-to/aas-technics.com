@@ -98,7 +98,7 @@ page_elements:
                     content:
                       -
                         type: text
-                        text: 'Stationen: CGN, BER'
+                        text: 'Stationen: CGN, BER, HAM, STR, NUE, PRG, ARN, SZG, GRZ, PMI'
               -
                 type: listItem
                 content:
@@ -258,6 +258,6 @@ page_elements:
     enabled: true
 debug: false
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1726144713
+updated_at: 1726232374
 open_graph_description: 'AAS Technics, Teil der Airline Assistance Switzerland, bietet massgeschneiderte Lösungen in den Bereichen Cleaning, Catering und Technical Services. Wir stehen für technische Exzellenz, zuverlässige Flugzeugwartung und nahtlose Zusammenarbeit mit Partnerfirmen. Erfahren Sie mehr über unsere Dienstleistungen.'
 ---
