@@ -4,7 +4,7 @@ blueprint: page
 title: Contacts
 debug: false
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1726144770
+updated_at: 1726210157
 page_elements:
   -
     id: luy713vi
@@ -21,7 +21,7 @@ page_elements:
             content:
               -
                 type: text
-                text: 'AAS Technics'
+                text: 'AAS Technics GmbH'
           -
             type: paragraph
             attrs:
