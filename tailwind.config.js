@@ -41,8 +41,8 @@ export default {
       },
       
       fontFamily: {
-        'effra-medium': ['effra', ...defaultTheme.fontFamily.sans],
-        'effra-regular': ['effra', ...defaultTheme.fontFamily.sans],
+        'effra-medium': ['effra-medium', ...defaultTheme.fontFamily.sans],
+        'effra-regular': ['effra-regular', ...defaultTheme.fontFamily.sans],
       },
 
       fontSize: {
