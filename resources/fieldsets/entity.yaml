@@ -8,7 +8,7 @@ fields:
       type: text
       display: Code
       icon: text
-      localizable: false
+      localizable: true
       listable: hidden
       instructions_position: above
       visibility: visible
@@ -44,7 +44,7 @@ fields:
       type: bard
       display: Description
       icon: bard
-      localizable: false
+      localizable: true
       listable: hidden
       instructions_position: above
       visibility: visible

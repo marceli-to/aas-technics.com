@@ -28,7 +28,7 @@ fields:
       type: text
       display: Name
       icon: text
-      localizable: false
+      localizable: true
       listable: hidden
       instructions_position: above
       visibility: visible
@@ -44,7 +44,7 @@ fields:
       type: text
       display: Title
       icon: text
-      localizable: false
+      localizable: true
       listable: hidden
       instructions_position: above
       visibility: visible

@@ -30,13 +30,6 @@ return [
             'searchables' => 'all',
             'fields' => ['title'],
         ],
-
-        'blog' => [
-          'driver' => 'local',
-          'searchables' => 'collection:posts',
-          'fields' => ['title', 'content'],
-        ],
-
     ],
 
     /*
